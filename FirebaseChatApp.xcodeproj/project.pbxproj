@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		093C79501F3F3ACF004B60D6 /* GroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093C794F1F3F3ACF004B60D6 /* GroupsViewController.swift */; };
+		093C79521F3F3AEA004B60D6 /* GroupChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093C79511F3F3AEA004B60D6 /* GroupChatViewController.swift */; };
+		09516D031F4227F100E2DCD6 /* Groups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09516D021F4227F100E2DCD6 /* Groups.swift */; };
+		15938C51C4F43D7E6DAE18F2 /* Pods_FirebaseChatAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46030BAFADFF5CBFAAFE2DD2 /* Pods_FirebaseChatAppTests.framework */; };
+		50C05F3D1D1BF798CD020FAA /* Pods_FirebaseChatApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6400EDCFCFF180EFD940AD91 /* Pods_FirebaseChatApp.framework */; };
+		618395793D1A420A707399BB /* Pods_FirebaseChatAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C03B11D171973A273D65E52 /* Pods_FirebaseChatAppUITests.framework */; };
+		84094A821F347B59003393C5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84094A811F347B59003393C5 /* GoogleService-Info.plist */; };
+		84094A851F347C36003393C5 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84094A831F347C36003393C5 /* Validator.swift */; };
+		84094A861F347C36003393C5 /* UnderlinedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84094A841F347C36003393C5 /* UnderlinedTextField.swift */; };
 		840A78651F33428F00A65AA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A78641F33428F00A65AA5 /* AppDelegate.swift */; };
-		840A78671F33428F00A65AA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A78661F33428F00A65AA5 /* ViewController.swift */; };
 		840A786A1F33428F00A65AA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840A78681F33428F00A65AA5 /* Main.storyboard */; };
 		840A786C1F33428F00A65AA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840A786B1F33428F00A65AA5 /* Assets.xcassets */; };
 		840A786F1F33428F00A65AA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840A786D1F33428F00A65AA5 /* LaunchScreen.storyboard */; };
 		840A787A1F33428F00A65AA5 /* FirebaseChatAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A78791F33428F00A65AA5 /* FirebaseChatAppTests.swift */; };
 		840A78851F33428F00A65AA5 /* FirebaseChatAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A78841F33428F00A65AA5 /* FirebaseChatAppUITests.swift */; };
+		840A78931F33473400A65AA5 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A78921F33473400A65AA5 /* SignInViewController.swift */; };
+		840A78951F334AEA00A65AA5 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A78941F334AEA00A65AA5 /* SignUpViewController.swift */; };
+		840A78971F334DBE00A65AA5 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A78961F334DBE00A65AA5 /* ContactsViewController.swift */; };
+		843E7D4F1F35C00500B06413 /* ContactsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E7D4E1F35C00500B06413 /* ContactsTableViewCell.swift */; };
+		843E7D511F35C02000B06413 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E7D501F35C02000B06413 /* Contacts.swift */; };
+		843E7D531F35DA6400B06413 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E7D521F35DA6400B06413 /* ChatViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +48,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		093C794F1F3F3ACF004B60D6 /* GroupsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupsViewController.swift; sourceTree = "<group>"; };
+		093C79511F3F3AEA004B60D6 /* GroupChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupChatViewController.swift; sourceTree = "<group>"; };
+		09516D021F4227F100E2DCD6 /* Groups.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Groups.swift; sourceTree = "<group>"; };
+		0C03B11D171973A273D65E52 /* Pods_FirebaseChatAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseChatAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		128FB509E61F32CA6E6F70B3 /* Pods-FirebaseChatAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseChatAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseChatAppTests/Pods-FirebaseChatAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		13427F9B30A34406E86AD0C4 /* Pods-FirebaseChatApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseChatApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseChatApp/Pods-FirebaseChatApp.debug.xcconfig"; sourceTree = "<group>"; };
+		2A184E4CC7AB291D08634D54 /* Pods-FirebaseChatAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseChatAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseChatAppUITests/Pods-FirebaseChatAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3A0673AE09FCA19E8CB0F777 /* Pods-FirebaseChatAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseChatAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseChatAppUITests/Pods-FirebaseChatAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		46030BAFADFF5CBFAAFE2DD2 /* Pods_FirebaseChatAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseChatAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6400EDCFCFF180EFD940AD91 /* Pods_FirebaseChatApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseChatApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84094A811F347B59003393C5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		84094A831F347C36003393C5 /* Validator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		84094A841F347C36003393C5 /* UnderlinedTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnderlinedTextField.swift; sourceTree = "<group>"; };
 		840A78611F33428E00A65AA5 /* FirebaseChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		840A78641F33428F00A65AA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		840A78661F33428F00A65AA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		840A78691F33428F00A65AA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		840A786B1F33428F00A65AA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		840A786E1F33428F00A65AA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +73,14 @@
 		840A78801F33428F00A65AA5 /* FirebaseChatAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirebaseChatAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		840A78841F33428F00A65AA5 /* FirebaseChatAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseChatAppUITests.swift; sourceTree = "<group>"; };
 		840A78861F33429000A65AA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840A78921F33473400A65AA5 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		840A78941F334AEA00A65AA5 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		840A78961F334DBE00A65AA5 /* ContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		843E7D4E1F35C00500B06413 /* ContactsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsTableViewCell.swift; sourceTree = "<group>"; };
+		843E7D501F35C02000B06413 /* Contacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
+		843E7D521F35DA6400B06413 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		9C30ECCFA52868D3EE285D39 /* Pods-FirebaseChatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseChatApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseChatApp/Pods-FirebaseChatApp.release.xcconfig"; sourceTree = "<group>"; };
+		B8341E0D1B2E72AF57065161 /* Pods-FirebaseChatAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseChatAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseChatAppTests/Pods-FirebaseChatAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50C05F3D1D1BF798CD020FAA /* Pods_FirebaseChatApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15938C51C4F43D7E6DAE18F2 /* Pods_FirebaseChatAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +104,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				618395793D1A420A707399BB /* Pods_FirebaseChatAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F8F84E6E1C285EDCB8E004E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13427F9B30A34406E86AD0C4 /* Pods-FirebaseChatApp.debug.xcconfig */,
+				9C30ECCFA52868D3EE285D39 /* Pods-FirebaseChatApp.release.xcconfig */,
+				B8341E0D1B2E72AF57065161 /* Pods-FirebaseChatAppTests.debug.xcconfig */,
+				128FB509E61F32CA6E6F70B3 /* Pods-FirebaseChatAppTests.release.xcconfig */,
+				2A184E4CC7AB291D08634D54 /* Pods-FirebaseChatAppUITests.debug.xcconfig */,
+				3A0673AE09FCA19E8CB0F777 /* Pods-FirebaseChatAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		840A78581F33428E00A65AA5 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +131,8 @@
 				840A78781F33428F00A65AA5 /* FirebaseChatAppTests */,
 				840A78831F33428F00A65AA5 /* FirebaseChatAppUITests */,
 				840A78621F33428E00A65AA5 /* Products */,
+				5F8F84E6E1C285EDCB8E004E /* Pods */,
+				944C0BEF44FFAE1260CC8217 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +150,22 @@
 			isa = PBXGroup;
 			children = (
 				840A78641F33428F00A65AA5 /* AppDelegate.swift */,
-				840A78661F33428F00A65AA5 /* ViewController.swift */,
 				840A78681F33428F00A65AA5 /* Main.storyboard */,
 				840A786B1F33428F00A65AA5 /* Assets.xcassets */,
 				840A786D1F33428F00A65AA5 /* LaunchScreen.storyboard */,
 				840A78701F33428F00A65AA5 /* Info.plist */,
+				84094A831F347C36003393C5 /* Validator.swift */,
+				84094A841F347C36003393C5 /* UnderlinedTextField.swift */,
+				840A78921F33473400A65AA5 /* SignInViewController.swift */,
+				840A78941F334AEA00A65AA5 /* SignUpViewController.swift */,
+				840A78961F334DBE00A65AA5 /* ContactsViewController.swift */,
+				84094A811F347B59003393C5 /* GoogleService-Info.plist */,
+				843E7D4E1F35C00500B06413 /* ContactsTableViewCell.swift */,
+				843E7D501F35C02000B06413 /* Contacts.swift */,
+				843E7D521F35DA6400B06413 /* ChatViewController.swift */,
+				093C794F1F3F3ACF004B60D6 /* GroupsViewController.swift */,
+				093C79511F3F3AEA004B60D6 /* GroupChatViewController.swift */,
+				09516D021F4227F100E2DCD6 /* Groups.swift */,
 			);
 			path = FirebaseChatApp;
 			sourceTree = "<group>";
@@ -125,6 +188,16 @@
 			path = FirebaseChatAppUITests;
 			sourceTree = "<group>";
 		};
+		944C0BEF44FFAE1260CC8217 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6400EDCFCFF180EFD940AD91 /* Pods_FirebaseChatApp.framework */,
+				46030BAFADFF5CBFAAFE2DD2 /* Pods_FirebaseChatAppTests.framework */,
+				0C03B11D171973A273D65E52 /* Pods_FirebaseChatAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 840A78891F33429000A65AA5 /* Build configuration list for PBXNativeTarget "FirebaseChatApp" */;
 			buildPhases = (
+				7B494D2DAECC0BAC1368FAFD /* [CP] Check Pods Manifest.lock */,
 				840A785D1F33428E00A65AA5 /* Sources */,
 				840A785E1F33428E00A65AA5 /* Frameworks */,
 				840A785F1F33428E00A65AA5 /* Resources */,
+				3CF6330EF16D4826300A0D37 /* [CP] Embed Pods Frameworks */,
+				11C02CACCAA6A4B95307217B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 840A788C1F33429000A65AA5 /* Build configuration list for PBXNativeTarget "FirebaseChatAppTests" */;
 			buildPhases = (
+				96610237D30A685AD4C503F6 /* [CP] Check Pods Manifest.lock */,
 				840A78711F33428F00A65AA5 /* Sources */,
 				840A78721F33428F00A65AA5 /* Frameworks */,
 				840A78731F33428F00A65AA5 /* Resources */,
+				64A12C2D692E78904BD9341E /* [CP] Embed Pods Frameworks */,
+				0180B2C7A957B8F3F912AEBE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 840A788F1F33429000A65AA5 /* Build configuration list for PBXNativeTarget "FirebaseChatAppUITests" */;
 			buildPhases = (
+				4909EBDEF1358A6EA68C5B2B /* [CP] Check Pods Manifest.lock */,
 				840A787C1F33428F00A65AA5 /* Sources */,
 				840A787D1F33428F00A65AA5 /* Frameworks */,
 				840A787E1F33428F00A65AA5 /* Resources */,
+				59FFEC34FBCA8B9F1E658549 /* [CP] Embed Pods Frameworks */,
+				6A86D10E5AAC421A2DCB4D24 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +275,7 @@
 				TargetAttributes = {
 					840A78601F33428E00A65AA5 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = SUBZ24DP5B;
 						ProvisioningStyle = Automatic;
 					};
 					840A78741F33428F00A65AA5 = {
@@ -233,6 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				840A786F1F33428F00A65AA5 /* LaunchScreen.storyboard in Resources */,
+				84094A821F347B59003393C5 /* GoogleService-Info.plist in Resources */,
 				840A786C1F33428F00A65AA5 /* Assets.xcassets in Resources */,
 				840A786A1F33428F00A65AA5 /* Main.storyboard in Resources */,
 			);
@@ -254,13 +338,161 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0180B2C7A957B8F3F912AEBE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseChatAppTests/Pods-FirebaseChatAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		11C02CACCAA6A4B95307217B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseChatApp/Pods-FirebaseChatApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CF6330EF16D4826300A0D37 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseChatApp/Pods-FirebaseChatApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4909EBDEF1358A6EA68C5B2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		59FFEC34FBCA8B9F1E658549 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseChatAppUITests/Pods-FirebaseChatAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64A12C2D692E78904BD9341E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseChatAppTests/Pods-FirebaseChatAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A86D10E5AAC421A2DCB4D24 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseChatAppUITests/Pods-FirebaseChatAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B494D2DAECC0BAC1368FAFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		96610237D30A685AD4C503F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		840A785D1F33428E00A65AA5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				840A78671F33428F00A65AA5 /* ViewController.swift in Sources */,
+				843E7D511F35C02000B06413 /* Contacts.swift in Sources */,
+				843E7D4F1F35C00500B06413 /* ContactsTableViewCell.swift in Sources */,
+				840A78951F334AEA00A65AA5 /* SignUpViewController.swift in Sources */,
+				84094A861F347C36003393C5 /* UnderlinedTextField.swift in Sources */,
+				093C79501F3F3ACF004B60D6 /* GroupsViewController.swift in Sources */,
+				840A78971F334DBE00A65AA5 /* ContactsViewController.swift in Sources */,
+				84094A851F347C36003393C5 /* Validator.swift in Sources */,
+				840A78931F33473400A65AA5 /* SignInViewController.swift in Sources */,
+				843E7D531F35DA6400B06413 /* ChatViewController.swift in Sources */,
 				840A78651F33428F00A65AA5 /* AppDelegate.swift in Sources */,
+				093C79521F3F3AEA004B60D6 /* GroupChatViewController.swift in Sources */,
+				09516D031F4227F100E2DCD6 /* Groups.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,9 +644,12 @@
 		};
 		840A788A1F33429000A65AA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13427F9B30A34406E86AD0C4 /* Pods-FirebaseChatApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SUBZ24DP5B;
 				INFOPLIST_FILE = FirebaseChatApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lakhani.FirebaseChatApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,9 +659,12 @@
 		};
 		840A788B1F33429000A65AA5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C30ECCFA52868D3EE285D39 /* Pods-FirebaseChatApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SUBZ24DP5B;
 				INFOPLIST_FILE = FirebaseChatApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lakhani.FirebaseChatApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -436,6 +674,7 @@
 		};
 		840A788D1F33429000A65AA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8341E0D1B2E72AF57065161 /* Pods-FirebaseChatAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -450,6 +689,7 @@
 		};
 		840A788E1F33429000A65AA5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 128FB509E61F32CA6E6F70B3 /* Pods-FirebaseChatAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,6 +704,7 @@
 		};
 		840A78901F33429000A65AA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A184E4CC7AB291D08634D54 /* Pods-FirebaseChatAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = FirebaseChatAppUITests/Info.plist;
@@ -477,6 +718,7 @@
 		};
 		840A78911F33429000A65AA5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A0673AE09FCA19E8CB0F777 /* Pods-FirebaseChatAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = FirebaseChatAppUITests/Info.plist;
@@ -507,6 +749,7 @@
 				840A788B1F33429000A65AA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		840A788C1F33429000A65AA5 /* Build configuration list for PBXNativeTarget "FirebaseChatAppTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +758,7 @@
 				840A788E1F33429000A65AA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		840A788F1F33429000A65AA5 /* Build configuration list for PBXNativeTarget "FirebaseChatAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +767,7 @@
 				840A78911F33429000A65AA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

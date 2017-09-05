@@ -10,4 +10,13 @@ import UIKit
 
 class Groups: NSObject {
 
+    var name: String
+    var id: String
+//    var participants : [Contacts]
+    
+    init(name:String,id:String) {
+        self.name = name
+        self.id = id
+    }
+    
 }

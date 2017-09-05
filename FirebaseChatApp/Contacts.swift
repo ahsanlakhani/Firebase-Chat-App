@@ -9,5 +9,16 @@
 import UIKit
 
 class Contacts: NSObject {
+    
+    var name: String!
+    var email: String!
+    var id: String!
+    
+    init(name:String,email:String,id:String)
+    {
+        self.name=name
+        self.email=email
+        self.id=id
+    }
 
 }

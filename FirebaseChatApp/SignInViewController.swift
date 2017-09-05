@@ -7,29 +7,108 @@
 //
 
 import UIKit
+import FirebaseDatabase
+import FirebaseAuth
+import JSQMessagesViewController
 
 class SignInViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
     
 
-    /*
-    // MARK: - Navigation
+    @IBOutlet weak var emailTextField: UITextField!
+    
+    @IBOutlet weak var passwordTextField: UITextField!
+    
+    var ref : DatabaseReference!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        
+        ref = Database.database().reference()
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
     }
-    */
+    
+    override func viewDidAppear(_ animated: Bool) {
+        if isLoggedIn()
+        {
+            performSegue(withIdentifier: "GoToTabBar", sender: self)
+        }
+        self.navigationController?.navigationBar.isHidden = true
 
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        self.navigationController?.navigationBar.isHidden = false
+
+    }
+    
+    @IBAction func signInTapped(_ sender: Any) {
+        
+        if (!Validator.validateTextFields(textFields: [self.emailTextField,self.passwordTextField])){
+            // self.showAlert("Invalid Field", message: "Please fill all the fields")
+            let alert = UIAlertController(title: "Invalid Field", message: "Please fill all fields", preferredStyle: UIAlertControllerStyle.alert)
+            
+            // add an action (button)
+            alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+            
+            // show the alert
+            self.present(alert, animated: true, completion: nil)
+        }
+        
+        else if (!Validator.validateEmail(email: self.emailTextField.text!)){
+            // self.showAlert("Invalid Field", message: "Please fill all the fields")
+            let alert = UIAlertController(title: "Invalid Email", message: "Please enter a valid email", preferredStyle: UIAlertControllerStyle.alert)
+            
+            // add an action (button)
+            alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+            
+            // show the alert
+            self.present(alert, animated: true, completion: nil)
+        }
+        else
+        {
+            Auth.auth().signIn(withEmail: emailTextField.text!, password: passwordTextField.text!, completion: { (user, error) in
+                if error != nil
+                {
+                    let alert = UIAlertController(title: "Error signing up", message: error?.localizedDescription, preferredStyle: UIAlertControllerStyle.alert)
+                    
+                    // add an action (button)
+                    alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+                    
+                    // show the alert
+                    self.present(alert, animated: true, completion: nil)
+                }
+                else
+                {
+                    self.performSegue(withIdentifier: "GoToTabBar", sender: self)
+                }
+            })
+        }
+        
+        
+    }
+    
+    func isLoggedIn() -> Bool
+    {
+        if Auth.auth().currentUser != nil
+        {
+            return true
+        }
+        return false
+    }
+    
+    
+}
+extension UIViewController
+{
+    open override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+}
+
+extension JSQMessagesViewController
+{
+    open override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
 }
